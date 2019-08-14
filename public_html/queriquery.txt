@@ -1,0 +1,1 @@
+SELECT `cert_queries`.`query_id` FROM `cert_queries` WHERE (message_id = "")

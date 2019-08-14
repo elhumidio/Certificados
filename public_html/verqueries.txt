@@ -1,0 +1,1 @@
+SELECT `data_queries_cert`.* FROM `data_queries_cert` WHERE (USER = 'dblanc') OR (PUBLICA = 1)

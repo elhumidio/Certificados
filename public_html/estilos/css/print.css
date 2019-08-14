@@ -1,0 +1,21 @@
+@media print {
+    // css rules for print
+    table{
+	margin-left:5%;background-color: red;
+    font-family: arial;}
+    
+    th{
+	background-color:#0077b3 !important;color:gray !important;-moz-border-radius:2px !important;
+    font-size: 1.2em !important;font-weight: normal; !important; font-family: arial !important;
+    }
+    tr{
+	border:0px solid gray;
+    }
+    thead {display: table-header-group;}
+
+    td{
+        font-size: 0.8em; background-color: white;
+    }
+    body{background-color:blue;}
+    .tdprintStyle{border:solid gray 1px}
+}
